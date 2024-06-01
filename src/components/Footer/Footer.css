@@ -1,0 +1,96 @@
+footer {
+  background-color: #000;
+  padding: 60px 70px;
+}
+
+footer .ft-logo {
+  width: 70px;
+}
+
+footer .ft-logo img {
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0;
+  letter-spacing: 0.5px;
+  transition: 0.5s ease;
+}
+footer .social-link a:hover,
+footer ul li a:hover {
+  color: #da2027;
+}
+
+footer .social-link p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffd400;
+  margin-right: 20px;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
+}
+footer .social-link a {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 15px;
+  transition: 0.5s ease;
+}
+
+footer .our-app h4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .our-app a img {
+  max-width: 150px;
+}
+
+.btm-section {
+  background-color: #1a1a1a;
+  padding: 30px 80px;
+}
+.btm-section span {
+  color: #fff;
+  font-size: 13px;
+}
+
+.btm-section h4 {
+  color: #ffd400;
+  font-size: 24px;
+}
+
+@media (max-width: 1199px) {
+  footer {
+    padding: 60px 40px;
+  }
+  .btm-section {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  footer .ft-logo {
+    width: 100px;
+  }
+
+  footer .social-link p {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  footer {
+    padding: 60px 15px;
+  }
+  .btm-section {
+    padding: 30px 40px;
+  }
+}

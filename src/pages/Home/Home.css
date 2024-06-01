@@ -1,0 +1,179 @@
+.hero-section .video-wrapper {
+  max-height: 500px;
+  overflow: hidden;
+}
+.hero-section .video-wrapper video {
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  .hero-section .video-wrapper {
+    max-height: 470px;
+    overflow: hidden;
+  }
+}
+
+/* MENU SECTION START */
+.menu-section {
+  background: url("../../assets/imgs/black-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+.menu-section h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .text-box p {
+    font-size: 14px;
+  }
+  .menu-section {
+    padding-bottom: 100px;
+  }
+}
+
+/* MENU SECTION END */
+
+/* rs-cards-container */
+
+.rs-cards-container .rs-card {
+  position: relative;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rs-cards-container .rs-card-1 {
+  background: url("../../assets/imgs/bg-aboutus-2x.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rs-cards-container .rs-card-2 {
+  background: url("../../assets/imgs/cta-rewards-2x.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rs-cards-container .rs-card-3 {
+  background: url("../../assets/imgs/THGcatering_40_Desktop-2x.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+}
+.rs-cards-container .rs-card .rs-card-text {
+  width: 100%;
+  padding: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.rs-cards-container .rs-card .rs-card-text.centered {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rs-cards-container .rs-card .rs-card-text h2 a,
+.rs-cards-container .rs-card .rs-card-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 46px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.rs-cards-container .rs-card .rs-card-text h2:hover {
+  opacity: 0.8;
+}
+
+.rs-cards-container .rs-card .rs-card-text a:not(h2 a) {
+  font-size: 16px;
+  padding-bottom: 22px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+.rs-cards-container .rs-card .rs-card-text a:not(h2 a):hover {
+  color: #ffd400;
+  border-color: #ffd400;
+}
+
+.text-box {
+  background-color: #ffd400;
+  padding: 10px;
+}
+.text-box p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .rs-cards-container .rs-card .rs-card-text {
+    padding: 40px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rs-cards-container .rs-card .rs-card-text {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.rs-cards-container .rs-card .rs-card-text.centered h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+.rs-cards-container .rs-card .rs-card-text.centered p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.rs-cards-container .rs-card .rs-card-text.centered a.m-btn {
+  all: unset;
+  padding: 8px 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 13px;
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #da2027;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.rs-cards-container .rs-card .rs-card-text.centered a.m-btn:hover {
+  background-color: #000;
+}
+
+/* rs-cards-container end */

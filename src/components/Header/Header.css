@@ -1,0 +1,172 @@
+/* @import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed"); */
+header {
+  position: relative;
+  z-index: 100;
+  background-color: #fff;
+}
+header .navbar {
+  height: 137px;
+  padding-left: 50px !important;
+}
+
+header .navbar .logo img {
+  width: 107px;
+}
+
+header .navbar .navItem ul li {
+  border-left: 1px solid #e5e5e5;
+}
+
+.navToggler,
+header .navbar .navItem ul li a {
+  color: #000;
+  height: 100%;
+  line-height: 120px;
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.5s ease;
+  text-transform: uppercase;
+}
+header .navbar .navItem ul li a svg {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.navToggler {
+  all: unset;
+  cursor: pointer;
+  line-height: 115px;
+  border-left: 1px solid #e5e5e5;
+  padding: 10px 40px;
+  transition: 0.5s ease;
+  font-size: 30px;
+}
+.navToggler:hover {
+  color: #da2027;
+  background-color: #f5f5f5;
+}
+
+header .navbar .navItem ul li a:hover {
+  color: #da2027;
+}
+
+header .navbar .navItem .order-btn {
+  width: 200px;
+  padding: 20px 30px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 20px;
+  color: #000;
+  background-color: #fad311;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+header .navbar .navItem .order-btn svg {
+  margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+  header .navbar .logo img {
+    width: 80px;
+  }
+  header .navbar {
+    height: 110px;
+  }
+  .navToggler {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  header .navbar {
+    height: 80px;
+    padding-left: 15px !important;
+  }
+  header .navbar .logo img {
+    width: 50px;
+  }
+  header .navbar .navItem .order-btn {
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .navToggler {
+    line-height: 30px;
+    padding: 0 10px;
+  }
+}
+
+/* MOBILE NAV */
+header .mobile-Menu {
+  display: none;
+  width: 100%;
+  padding-top: 30px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  opacity: 0;
+  transition: 0.5s;
+}
+header .mobile-Menu.active {
+  top: 100%;
+  opacity: 1;
+}
+header .mobile-Menu ul {
+  margin-left: 100px;
+}
+header .mobile-Menu ul li a {
+  display: block;
+  font-size: 35px;
+  padding: 10px 0;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+header .mobile-Menu ul li a.active,
+header .mobile-Menu ul li a:hover {
+  color: #da2027;
+}
+
+@media (max-width: 991px) {
+  header .mobile-Menu {
+    display: block;
+  }
+  header .mobile-Menu.active {
+    top: 100%;
+    opacity: 1;
+  }
+  header .mobile-Menu ul {
+    margin-left: 100px;
+  }
+  header .mobile-Menu ul li a {
+    display: block;
+    font-size: 35px;
+    padding: 10px 0;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 767px) {
+  header .mobile-Menu ul {
+    margin-left: 70px;
+  }
+  header .mobile-Menu ul li a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  header .mobile-Menu ul {
+    margin-left: 20px;
+  }
+}
+
+/* MOBILE NAV */
